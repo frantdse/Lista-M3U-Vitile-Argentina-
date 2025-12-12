@@ -11,11 +11,11 @@ Copia y pega la URL de la lista M3U (sin procesar) en cualquier reproductor comp
 
 | Función | Enlace |
 | :--- | :--- |
-| **URL Lista M3U (Raw/Sin procesar)** | `https://gist.githubusercontent.com/frantdse/f6989518c73826ade6734c63c367af4c/raw/c7394358523c619a78ef57aa716d54d54a6640ac/gistfile1.txt` |
+| **URL Lista M3U (Raw/Sin procesar)** | `https://gist.githubusercontent.com/frantdse/f6989518c73826ade6734c63c367af4c/raw/18f1fdcec9bb6695ebebedaa15e8dcc533500aa9/gistfile1.txt` |
 | **Descarga Directa (Alternativa)** | `https://limewire.com/d/8gdNE#6kbpbGk184` |
 | **Sitio Web Oficial** | [TV Argentina Online](https://frantdse.github.io/TVArgentinaOnline/) |
 
-**🗓️ Última Actualización de la Lista:** 11 de diciembre de 2025.
+**🗓️ Última Actualización de la Lista:** 12 de diciembre de 2025.
 
 ---
 
