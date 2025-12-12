@@ -1,5 +1,3 @@
-# Lista-M3U-Vitile-Argentina-
-Repositorio de una de las listas IPTV públicas y gratuitas más grandes de Argentina 
 
 # 🇦🇷 Lista M3U Vitile: TV Argentina Online
 
