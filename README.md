@@ -37,7 +37,7 @@ Para la mejor experiencia y estabilidad, especialmente en *streams* específicos
 
 * **Tivimate**
 * **Sparkle TV**
-* **VLC Media Player**
+* **Televizo**
 
 ### 2. Problemas con Canal 26 y SSL
 
