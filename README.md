@@ -13,7 +13,7 @@ Copia y pega la URL de la lista M3U (sin procesar) en cualquier reproductor comp
 | :--- | :--- |
 | **URL Lista M3U (Raw/Sin procesar)** | `https://gist.githubusercontent.com/frantdse/f6989518c73826ade6734c63c367af4c/raw/18f1fdcec9bb6695ebebedaa15e8dcc533500aa9/gistfile1.txt` |
 | **Descarga Directa (Alternativa)** | `https://limewire.com/d/8gdNE#6kbpbGk184` |
-| **Sitio Web Oficial** | `https://frantdse.github.io/Lista-M3U-Vitile-Argentina-/` |
+| **Sitio Web Oficial** | `https://frantdse.github.io/Lista-M3U-Vitile-Argentina-/` | (https://frantdse.github.io/Lista-M3U-Vitile-Argentina-/)
 
 **🗓️ Última Actualización de la Lista:** 12 de diciembre de 2025.
 
