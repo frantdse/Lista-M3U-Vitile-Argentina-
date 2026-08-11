@@ -265,4 +265,128 @@
                 <button class="tab-btn active" data-filter="all">Todos</button>
                 <button class="tab-btn" data-filter="noticias">Noticias</button>
                 <button class="tab-btn" data-filter="general">General/Abierta</button>
-              
+                <button class="tab-btn" data-filter="tematicos">Otros</button>
+                <button class="tab-btn" data-filter="internacional">Internacional</button>
+            </div>
+
+            <div id="noResultsMessage" style="display:none; text-align:center; padding:30px; color:#ef4444; font-family:var(--font-body); font-weight:600;">
+                ❌ No se encontraron canales que coincidan con la búsqueda.
+            </div>
+
+            <div class="guide-columns">
+                
+                <div class="guide-group" data-category="noticias">
+                    <ul>
+                        <li class="header-li">Noticias</li>
+                        <li class="channel-item" data-id="0905">
+                            <div class="ch-row-info">
+                                <span class="ch-name">TN (Todo Noticias) En Vivo</span>
+                                <span class="live-tag">Vivo</span>
+                            </div>
+                            <div class="epg-progress-box">
+                                <span class="epg-current-text">Cargando guía...</span>
+                                <div class="epg-bar"><div class="epg-fill" style="width: 45%;"></div></div>
+                            </div>
+                        </li>
+
+                        <li class="channel-item" data-id="0222">
+                            <div class="ch-row-info">
+                                <span class="ch-name">A24 En Vivo</span>
+                                <span class="live-tag">Vivo</span>
+                            </div>
+                            <div class="epg-progress-box">
+                                <span class="epg-current-text">Cargando guía...</span>
+                                <div class="epg-bar"><div class="epg-fill" style="width: 20%;"></div></div>
+                            </div>
+                        </li>
+                        <li class="channel-item" data-id="0917">
+                            <div class="ch-row-info"><span class="ch-name">Canal 26</span></div>
+                        </li>
+                        <li class="channel-item" data-id="0934">
+                            <div class="ch-row-info"><span class="ch-name">Crónica TV</span></div>
+                        </li>
+                        <li class="channel-item" data-id="0964">
+                            <div class="ch-row-info"><span class="ch-name">Canal E</span></div>
+                        </li>
+                        <li class="channel-item" data-id="0932">
+                            <div class="ch-row-info"><span class="ch-name">C5N</span></div>
+                        </li>
+                        <li class="channel-item" data-id="0923">
+                            <div class="ch-row-info"><span class="ch-name">24/7 Noticias</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="guide-group" data-category="general">
+                    <ul>
+                        <li class="header-li">General / Abierta</li>
+                        <li class="channel-item" data-id="0909">
+                            <div class="ch-row-info">
+                                <span class="ch-name">Telefe En Vivo</span>
+                                <span class="live-tag">Vivo</span>
+                            </div>
+                            <div class="epg-progress-box">
+                                <span class="epg-current-text">Cargando guía...</span>
+                                <div class="epg-bar"><div class="epg-fill" style="width: 60%;"></div></div>
+                            </div>
+                        </li>
+                        <li class="channel-item" data-id="0915">
+                            <div class="ch-row-info">
+                                <span class="ch-name">El Trece En Vivo</span>
+                                <span class="live-tag">Vivo</span>
+                            </div>
+                            <div class="epg-progress-box">
+                                <span class="epg-current-text">Cargando guía...</span>
+                                <div class="epg-bar"><div class="epg-fill" style="width: 15%;"></div></div>
+                            </div>
+                        </li>
+                        <li class="channel-item" data-id="0935">
+                            <div class="ch-row-info"><span class="ch-name">América TV</span></div>
+                        </li>
+                        <li class="channel-item" data-id="0916">
+                            <div class="ch-row-info"><span class="ch-name">El Nueve</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="watch-online-section">
+            <a href="#" class="online-button">
+                <svg class="icon"><use href="#icon-play" /></svg>
+                Ver Online en Web
+            </a>
+        </div>
+
+        <div class="collaboration-section">
+            <a href="https://github.com/frantdse" class="collaboration-button" target="_blank" rel="noopener">
+                <svg class="icon"><use href="#icon-github" /></svg>
+                Contribuir en GitHub
+            </a>
+        </div>
+
+        <div class="legalidad">
+            <p><strong>Aviso Legal:</strong> Esta página web no almacena, hospeda ni retransmite ningún archivo de video o señal de streaming en sus servidores. Los enlaces m3u generados y listados corresponden a flujos de distribución abierta y libre acceso público disponibles de manera gratuita en la red de Internet.</p>
+        </div>
+
+        <div class="small-text">Desarrollado con fines informativos y de código abierto. 2026.</div>
+
+    </div>
+
+    <button id="backToTop" class="back-to-top" title="Volver arriba">
+        <svg class="icon"><use href="#icon-arrow-up" /></svg>
+    </button>
+
+    <script src="script.js"></script>
+    <script>
+        // Disparador inicializador de EPG simulado al montar la app
+        document.addEventListener("DOMContentLoaded", () => {
+            if(typeof actualizarEPGInterno === 'function') {
+                actualizarEPGInterno();
+                setInterval(actualizarEPGInterno, 60000); // Refresca cada 1 minuto
+            }
+        });
+    </script>
+</body>
+</html>
