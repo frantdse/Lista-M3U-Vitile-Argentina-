@@ -40,7 +40,7 @@ Este proyecto no sería lo que es sin el apoyo de ustedes. ¡Cada granito de are
 
 ---
 
-### 💭 ¡Pregunta del día! 👇🌸
+### Festividades 👇🌸
 
-Ya que estamos en esta temporada mundialista: ¿Ustedes cómo se preparan para los partidos? ¿Lo van a ver tranquilos en casa, con amigos, o se juntan con toda la familia?
-✨
+
+Feliz Septiembre y Próxima Primaveraaaa ✨
